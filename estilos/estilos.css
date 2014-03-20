@@ -7,7 +7,7 @@ body
 footer
 {
 	height: 111px;
-	top: 400px;
+	top: 40px;
 	width: 901px;
 	margin: auto;
 	position: relative;
@@ -209,11 +209,22 @@ nav ul li a:hover{
 #grama
 {
 	width: 100%;
-	top: 347px;
+	top: -14px;
 	position: relative;
 	z-index: 1;
 }
 #grama img 
 {
 	width: 100%
+}
+video
+{
+	display: block;
+}
+#video
+{
+	margin: auto;
+	position:relative;
+	width: 800px;
+	top: 20px;
 }

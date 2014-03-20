@@ -1,0 +1,234 @@
+body
+{
+	background-image: url('fondo.png');
+	background-size: inherit;
+	background-repeat: no-repeat;
+}
+footer
+{
+	height: 111px;
+	top: 54px;
+	width: 901px;
+	margin: auto;
+	position: relative;
+	background-image: url(fondo-footer.png);
+	background-repeat: no-repeat;
+	background-size: 901px;
+	z-index: 2;
+}
+footer #pie
+{
+	width: 300px;
+	position: absolute;
+	right: 0;
+	background: transparent;
+	margin: 18px;
+
+}
+footer #pie p 
+{
+	margin: 0;
+	text-align: right;
+	font-size: 0.8em;
+	padding: 0 7px 0 0;
+	color: #FFCC00;
+
+} 
+footer #pie .uno_footer
+{
+	margin: 0;
+	padding: 10px 40px 0 0;
+	text-align: right;
+	font-size: 1em;
+}
+footer #iconos
+{
+	display: inline-block;
+	position: absolute;
+	width: 308px;
+	left: 0;
+	padding: 0;
+	margin: 10px 0 0 30px;
+	top: 50px;
+}
+footer #iconos a
+{
+	padding: 0;
+	margin: 0;
+}
+footer #iconos .botones:nth-child(1)
+{
+	padding: 0;
+	margin: 0;
+	width: 40px;
+	left: 0;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(1) a img
+{
+	width: 40px;
+	color: #FFCC00;
+
+}
+footer #iconos .botones:nth-child(2)
+{
+	padding: 0;
+	margin: 0;
+	width: 40px;
+	left: 55px;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(2) a img 
+{
+	width: 40px;
+}
+footer #iconos .botones:nth-child(3)
+{
+	padding: 0;
+	margin: 0;
+	width: 40px;
+	left: 110px;
+	position: absolute;
+}
+footer #iconos .botones:nth-child(3) a img 
+{
+	width: 40px;
+}
+
+header
+{
+	background: transparent;
+	height: 260px;
+	top: 0px;
+	width: 901px;
+	margin: auto;
+	position: relative;
+	background-image: url(fondo-header.png);
+	background-repeat: no-repeat;
+	background-size: 901px;
+
+}
+header p1 
+{
+	padding: 0;
+	margin: 0;
+	font-style: italic;
+	color: #FFCC00;
+	top: 215px;
+	position: absolute;
+	left: 45px;
+}
+header p2 
+{
+	padding: 0;
+	margin: 0;
+	font-style: italic;
+	color: #FFCC00;
+	top: 230px;
+	position: absolute;
+	left: 38px;
+}
+header #logo
+{
+	margin: 0;
+	left: 70px;
+	padding: 0;
+	position: absolute;
+	top: 125px;
+}
+header #logo img
+{
+	width: 118px;
+	-webkit-transition:.2s; 
+	-moz-transition: .2s;
+	-o-transition: .2s;
+	-ms-transition: .2s;
+}
+header #logo img:hover{
+	-webkit-transform: translate(1px,-30px);
+	-moz-transform: translate(1px,-30px);
+	-o-transform: translate(1px,-30px);
+	-ms-transform:translate(1px,-30px);
+}
+
+header #mariposa
+{
+	margin: 0;
+	left: 35px;
+	padding: 0;
+	position: absolute;
+	top: 120px;
+}
+header #mariposa img
+{
+	width: 57px;
+}
+nav
+{
+	background-image: url(fondo-nav.png);
+	background-size: 646px;
+	display: inline-block;
+	height: 28px;
+	margin: 0;
+	position: absolute;
+	right: 11px;
+	top: 215px;
+	width: 646px;
+}
+nav ul 
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 4em;
+}
+nav ul li
+{
+	display: inline-block;
+	margin: 0 4em 0 0;
+
+}
+nav ul li a
+{
+	text-align: center;
+	text-decoration: none;
+	color: #FFCC00;
+	display: block;
+	font-size: 16px;
+	padding: 0.25em;
+	-webkit-transition:.2s;
+	-moz-transition:.2s;
+	-o-transition:.2s;
+	-ms-transition:.2s;
+}
+nav ul li a:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+}
+#grama
+{
+	width: 100%;
+	top: 0;
+	position: relative;
+	z-index: 1;
+}
+#grama img 
+{
+	width: 100%
+}
+#mision-vision
+{
+	background: transparent;
+	margin: auto;
+	position: relative;
+	top: 35px;
+	width: 700px;
+	text-align: justify;
+	font-family: Verdana, Geneva, sans-serif;
+}
+strong
+{
+	color: #06F;
+	font-family: "Arial Black", Gadget, sans-serif;
+}
