@@ -7,7 +7,7 @@ body
 footer
 {
 	color: rgba(255, 255, 255, 0.6);
-	background:transparent;
+	background: transparent;
 	height: 95px;
 	top: 200px;
 	width: 800px;
@@ -134,7 +134,18 @@ header #logo
 header #logo img
 {
 	width: 118px;
+	-webkit-transition:.2s; 
+	-moz-transition: .2s;
+	-o-transition: .2s;
+	-ms-transition: .2s;
 }
+header #logo img:hover{
+	-webkit-transform: translate(1px,-30px);
+	-moz-transform: translate(1px,-30px);
+	-o-transform: translate(1px,-30px);
+	-ms-transform:translate(1px,-30px);
+}
+
 header #mariposa
 {
 	margin: 0;
@@ -185,9 +196,11 @@ nav ul li a
 	-ms-transition:.2s;
 }
 nav ul li a:hover{
-	background: #00CCFF;
-}
-#azul
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+	-o-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+
 {
 	background: #0096DC;
 	height: 95px;
